@@ -2,5 +2,8 @@ spring:
   autoconfigure:
     exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
 
+  pid:
+    file: /home/centos/boot.pid
+
 server:
   port: 9090
